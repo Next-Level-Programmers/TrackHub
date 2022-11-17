@@ -60,6 +60,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.441"
             app:srcCompat="@drawable/btn" />
+
         <ImageButton
             android:id="@+id/issue"
             style="?android:attr/borderlessButtonStyle"
@@ -71,6 +72,18 @@
             app:layout_constraintTop_toTopOf="@+id/imageView3"
             app:layout_constraintVertical_bias="0.764"
             app:srcCompat="@drawable/issu" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="57dp"
+            android:layout_height="87dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.923"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.057"
+            app:srcCompat="@drawable/ic_baseline_exit_to_app_24" />
     </android.support.constraint.ConstraintLayout>
 
 </LinearLayout>
