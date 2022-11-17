@@ -22,5 +22,4 @@ import android.widget.EditText
             startActivity(intent)
             }
     }
-     j
  }
