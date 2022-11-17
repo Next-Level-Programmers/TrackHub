@@ -75,24 +75,7 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity
-            android:name=".signmob"
-            android:exported="false"
-            android:label="@string/title_activity_signmob"
-            android:theme="@style/Theme.TrackHub.NoActionBar">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".locate"
-            android:exported="false"
-            android:label="@string/title_activity_locate"
-            android:theme="@style/Theme.TrackHub.NoActionBar">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
