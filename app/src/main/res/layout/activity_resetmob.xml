@@ -39,7 +39,7 @@
             android:gravity="center"
             android:text="Welcome to \n TrackHub"
             android:textColor="#E98741"
-            android:textSize="80px"
+            android:textSize="50px"
             app:layout_constraintBottom_toBottomOf="@+id/imageView"
             app:layout_constraintEnd_toEndOf="@+id/imageView"
             app:layout_constraintStart_toStartOf="@+id/imageView"
