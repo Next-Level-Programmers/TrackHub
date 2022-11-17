@@ -3,11 +3,11 @@ package com.example.trackhub
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
+import android.widget.ImageButton
 
 class home : AppCompatActivity() {
-    private lateinit var b6: Button
-    private lateinit var b1: Button
+    private lateinit var b6: ImageButton
+    private lateinit var b1: ImageButton
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
@@ -17,7 +17,7 @@ class home : AppCompatActivity() {
             val intent= Intent(this,timing::class.java)
             startActivity(intent)
         }
-        b6.setOnClickListener{
+        b1.setOnClickListener{
             val intent= Intent(this,location::class.java)
             startActivity(intent)
         }
