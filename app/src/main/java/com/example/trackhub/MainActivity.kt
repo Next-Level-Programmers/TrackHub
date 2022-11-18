@@ -27,7 +27,7 @@ import android.widget.EditText
             startActivity(intent)
         }
         b2.setOnClickListener{
-            val intent=Intent(this,resetmob::class.java)
+            val intent=Intent(this,sognmob::class.java)
             startActivity(intent)
         }
         b3.setOnClickListener{
