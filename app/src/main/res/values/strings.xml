@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TrackHub</string>
+    <string name="app_name" translatable="false">Track Hub</string>
     <string name="title_activity_locate">locate</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -12,4 +12,11 @@
     <string name="title_activity_signmob">signmob</string>
     <string name="current_location">Current Location</string>
     <string name="destination">Destination</string>
+    <string name="welcome_to_n_trackhub">Welcome to \n TrackHub</string>
+    <string name="log_in">Log In</string>
+    <string name="password">Password</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="log__in">Log In</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="new_user">New User</string>
 </resources>

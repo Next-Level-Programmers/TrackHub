@@ -1,9 +1,9 @@
 package com.example.trackhub
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
+import androidx.appcompat.app.AppCompatActivity
 
 class home : AppCompatActivity() {
     private lateinit var b6: ImageButton
